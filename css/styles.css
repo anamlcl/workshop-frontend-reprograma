@@ -1,0 +1,200 @@
+/* Add estilos para toda a página */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Definindo a fonte para todos os elementos presentes na página/body */
+body {
+    background-color: rgb(208, 202, 209);
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Estilizando o header */
+.banner {
+    background: url(../img/banner-bg.png) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding-top: 16rem;
+    color: whitesmoke;
+}
+
+.banner_titulo {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner_descricao {
+    font-size: 1.5rem;
+}
+
+.botao {
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-width: 0;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: #948852;
+    border-width: medium;
+}
+
+.botao-branco {
+    background-color: whitesmoke;
+    color: #948852;
+}
+
+
+.botao-cobre {
+    color: #948852;
+}
+
+/* Estilizando a section principal */
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 2rem;
+}
+
+.container img {    
+    border-radius: 50%;
+    height: 250px;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sobre {
+    margin: 0 auto;
+}
+
+.sobre_descricao {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3rem;
+}
+
+.sobre_descricao_titulo {
+    text-align: justify;
+}
+
+.sobre_descricao_texto {
+    text-align: justify;
+}
+
+.sobre_habilidades {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3rem;
+}
+
+.sobre_habilidades_titulo, 
+.sobre_habilidades_lista {
+    text-align: justify;
+}
+
+/* Estilizando a section secundária com as redes sociais no final da página */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.redes-sociais-link {
+    display: inline-block;
+    margin: 0 1.5rem;
+
+}
+
+.redes-sociais-img {
+    height: 100px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.redes-sociais-gmail {
+    height: 100px;
+    padding-top: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
